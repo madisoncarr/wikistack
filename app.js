@@ -23,6 +23,7 @@ app.get('/', (req, res) => {
 
 const init = async () => {
   await models.db.sync({});
+  //add force: true to overwrite the db changes
 
   const PORT = 1337;
   app.listen(PORT, () => {

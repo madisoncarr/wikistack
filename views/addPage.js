@@ -7,23 +7,16 @@ module.exports = () =>
     <hr />
     <form method="POST" action="/wiki/">
       <div class="form-group">
-        <label for="author" class="col-sm-2 control-label">Author Name</label>
+        <label for="name" class="col-sm-2 control-label">Author Name</label>
         <div class="col-sm-10">
-          <input id="author" name="author" type="text" class="form-control" />
+          <input id="name" name="name" type="text" class="form-control" />
         </div>
       </div>
 
       <div class="form-group">
-        <label for="author-email" class="col-sm-2 control-label"
-          >Author Email</label
-        >
+        <label for="email" class="col-sm-2 control-label">Author Email</label>
         <div class="col-sm-10">
-          <input
-            id="author-email"
-            name="author-email"
-            type="text"
-            class="form-control"
-          />
+          <input id="email" name="email" type="text" class="form-control" />
         </div>
       </div>
 
