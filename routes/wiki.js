@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
 router.post('/', async (req, res, next) => {
   const page = new Page({
     title: req.body.title,
-    content: req.body.content,
+    content: req.baddody.content,
   });
 
   try {
